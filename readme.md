@@ -1,5 +1,5 @@
 # Objectives
-The objective of this script is make all of little action i must doing for prepare and personnalized a new install of Kali linux
+The objective of this scripts is make all of little action i must doing for prepare and personnalized a new install of Kali linux
 
 # Infos
 This script was test on Kali 2021.1-amd64
