@@ -34,7 +34,7 @@ This script was test on Kali 2021.1-amd64
  - [ ] Generate openssl certs
  - [ ] Install portainer-ssl
  
-# How to run scripts ?
+# How to run these scripts ?
 ### Simple method
 	wget https://github/myprofile
 	bash /path/of/script/nameofscript
