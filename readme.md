@@ -47,3 +47,8 @@ This script was test on Kali 2021.1-amd64
 
 # For more customization you can go on :
 https://www.offensive-security.com/kali-linux/kali-linux-customization/
+
+
+# To-do
+- [ ] evolution with dotbot : https://github.com/anishathalye/dotbot
+- [ ] add my .bashrc
