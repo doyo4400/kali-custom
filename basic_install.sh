@@ -3,7 +3,7 @@
 #last update 23/04/2021
 
 #variables
-$screen_resolution = 1440×900
+$screen_resolution = "1440×900:59.89"
 $hostname = Kalisse
 
 
