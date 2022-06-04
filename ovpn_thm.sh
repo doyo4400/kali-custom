@@ -13,4 +13,4 @@ apt install openvpn
 
 openvpn $path_ovpn_thm
 
-echo "for test the connection, start the computer and try a connection !"
+echo "for test the connection, start the room (computer) and try a ping/connection !"
