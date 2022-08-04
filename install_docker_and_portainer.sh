@@ -41,7 +41,7 @@ openssl genrsa -out portainer.key 2048
 openssl ecparam -genkey -name secp384r1 -out portainer.key
 openssl req -new -x509 -sha256 -key portainer.key -out portainer.crt -days 3650
 
-#on oublie pas de modifier les chemins de la conf et des certificats
+#don't forget to modify config path and certs
 
 #create portainer
 $path_to_portainer_config = /path/to/config
