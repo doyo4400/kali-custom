@@ -1,0 +1,10 @@
+#for dhcp
+auto $interface_name
+allow-hotplug $interface_name
+iface $interface_name inet dhcp
+
+# for static : 
+auto $interface_name
+iface $interface_name inet static
+	address 192.0.2.7/24
+	gateway 192.0.2.254

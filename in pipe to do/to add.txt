@@ -1,0 +1,11 @@
+apm install https://github.com/atom/markdown-preview
+
+
+add to : 
+update-rc.d /var/ossec/bin/ossec-control defaults
+
+
+for clamav
+#update db and add crontab for make scan every 30min
+sudo freshclam
+(crontab -l 2>/dev/null; echo "*/30 * * * * clamscan -r -l /home/lolo/Bureau/report.txt -i / &  > /home/lolo/Bureau/crontab_ClamAV.txt") | crontab -
