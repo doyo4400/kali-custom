@@ -52,3 +52,7 @@ https://www.offensive-security.com/kali-linux/kali-linux-customization/
 # To-do
 - [ ] evolution with dotbot : https://github.com/anishathalye/dotbot
 - [ ] add my .bashrc
+
+# Go to the moon 🚀
+	echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+	echo powersave | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
