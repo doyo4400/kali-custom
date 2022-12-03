@@ -10,3 +10,9 @@ apt install firmware-iwlwifi
 modprobe -r iwlwifi ; modprobe iwlwifi
 
 echo "$(tput setaf 1) $(tput setab 3) It's time to configure your WI-FI connection ! "
+
+
+# wifi blocking debug
+#sudo rfkill unblock wifi ; sudo rfkill unblock all
+#sudo rfkill list
+#sudo ifconfig wlan0 up
